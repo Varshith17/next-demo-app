@@ -1,13 +1,25 @@
 import Head from 'next/head'
-import React from 'react';
+import React, { useState } from 'react';
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
+import { useRouter } from 'next/router';
 import styles from '../styles/Home.module.css'
 
 
-const inter = Inter({ subsets: ['latin'] })
+
 
 export default function Home() {
+
+  const [id, setId] = React.useState();
+  const router = useRouter();
+
+  const handleChange = (e) => {
+    setId(e.target.value);
+  }
+  
+  const handleSubmit=()=>{
+    router.push({pathname:'/news',query:{id:id}})
+  }
   return (
     <>
       <Head>
@@ -24,7 +36,8 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div>Main Page</div>
-
+        <input onChange={handleChange} value={id} />
+        <button onClick={handleSubmit}>submit</button>
       </main>
     </>
   )
