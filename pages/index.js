@@ -16,7 +16,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:title" content="Open Graph Meta Tags: Everything You Need to Know" />
         <meta property="og:url" content="https://63a6ad0ab865f341a351c47e--profound-alpaca-ba9d44.netlify.app/" />
-        <meta property="og:image" content="https://cdn-jxty9psj.files-simplefileupload.com/static/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd1ZuQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--680f4836c6f8035528639bf5de876daaa3360d94/download%20(1).jpg" />
+        <meta property="og:image" content="https://www.gstatic.com/webp/gallery3/1.png" />
         <meta property="og:image:width" content="600" />
         <meta property="og:image:height" content="600" />
         <meta property="og:type" content="website" />
